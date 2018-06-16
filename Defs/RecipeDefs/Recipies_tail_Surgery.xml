@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>  
+  <RecipeDef Abstract="True" Name="SurgeryFlesh">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+  </RecipeDef>
+
+  <RecipeDef Name="SurgeryNa'viTails" ParentName="SurgeryFlesh" Abstract="True">
+  <recipeUsers>
+  <li>Alien_Na'vi</li>
+  </recipeUsers>
+  </RecipeDef>
+  
+ <RecipeDef ParentName="SurgeryNa'viTails">
+      <defName>InstallNa'viTail</defName>
+      <label>install Na'vi tail</label>
+      <description>Replace missing or damaged tail.</description>
+      <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+      <jobString>Installing tail.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Tail</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>Tail</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>Tail</li>
+      </appliedOnFixedBodyParts>
+   </RecipeDef>
+
+ <RecipeDef ParentName="SurgeryNa'viTails">
+      <defName>InstallTailCover</defName>
+      <label>install tail cover</label>
+      <description>Installs an anti-septic patch over the missing tail.</description>
+      <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+      <jobString>Installing Tail cover.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Cloth</li>
+               </thingDefs>
+            </filter>
+            <count>3</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>Cloth</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>Tail</li>
+      </appliedOnFixedBodyParts>
+      <addsHediff>TailCover</addsHediff>
+   </RecipeDef>
+
+ <RecipeDef ParentName="SurgeryNa'viTails">
+      <defName>InstallBionicNa'viTail</defName>
+      <label>install bionic tail</label>
+      <description>Installs bionic tail.</description>
+      <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+      <jobString>Installing bionic tail.</jobString>
+      <workAmount>1200</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>BionicNa'viTail</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>BionicNa'viTail</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <appliedOnFixedBodyParts>
+         <li>Tail</li>
+      </appliedOnFixedBodyParts>
+      <addsHediff>BionicNa'viTail</addsHediff>
+   </RecipeDef>
+
+</Defs> 

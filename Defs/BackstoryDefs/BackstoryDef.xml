@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription>NAME</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	  <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Na'viBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+      <defName></defName>
+      <title></title>
+      <titleShort></titleShort>
+      <baseDescription>NAME</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>20</maleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+        <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+  	  <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>Na'viBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+</Defs>
