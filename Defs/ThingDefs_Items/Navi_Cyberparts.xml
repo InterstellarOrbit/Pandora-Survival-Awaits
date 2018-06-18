@@ -4,11 +4,11 @@
 
    
   <ThingDef ParentName="BodyPartArtificialBase">
-    <defName>BionicNa'viTail</defName>
-    <label>bionic Na'vi tail</label>
+    <defName>BionicNaviTail</defName>
+    <label>bionic Navi tail</label>
     <description>A Bionic Tail that allows increased movement and agility.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/BodyPart/BodyPartBionic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -25,7 +25,7 @@
     <label>Tail cover</label>
     <description>Tail cover that prevents diseases. Literally a piece of cloth with anti-septic properties.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

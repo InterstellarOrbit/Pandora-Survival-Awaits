@@ -2,12 +2,12 @@
 <Defs>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>BionicNa'viTail</defName>
-    <label>bionic Na'vi tail</label>
-    <spawnThingOnRemoved>BionicNa'viTail</spawnThingOnRemoved>
+    <defName>BionicNaviTail</defName>
+    <label>bionic Navi tail</label>
+    <labelNoun>an archotech arm</labelNoun>
+    <spawnThingOnRemoved>BionicNaviTail</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      <solid>true</solid>
       <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
     <stages>
@@ -25,15 +25,15 @@
       </li>
     </stages>
   </HediffDef>
-
-    <HediffDef ParentName="AddedBodyPartBase">
+  
+  <HediffDef ParentName="AddedBodyPartBase">
     <defName>TailCover</defName>
     <label>tail cover</label>
+    <labelNoun>a tail cover</labelNoun>
     <addedPartProps>
-      <isSolid>true</isSolid>
+      <solid>true</solid>
       <partEfficiency>0.2</partEfficiency>
     </addedPartProps>
   </HediffDef>
-
   
 </Defs>
