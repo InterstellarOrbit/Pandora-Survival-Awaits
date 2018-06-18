@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+	<BodyPartDef>
+   	 <defName>NaviTail</defName>
+   	 <label>na'vi tail</label>
+   	 <hitPoints>15</hitPoints>
+   	 <frostbiteVulnerability>8</frostbiteVulnerability>
+   	 <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
+   	 <spawnThingOnRemoved>NaviTail</spawnThingOnRemoved>
+   	 <skinCovered>true</skinCovered>
+         <beautyRelated>true</beautyRelated>
+	</BodyPartDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>NaviTail</defName>
+      <label>na'vi tail</label>
+      <description>A tail of a Na'vi.</description>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/Organ</texPath>
+         <graphicClass></graphicClass>
+      </graphicData>
+      <statBases>
+         <MarketValue>200</MarketValue>
+		 <Mass>1</Mass>
+      </statBases>
+   </ThingDef>
+	
+	
+</Defs>

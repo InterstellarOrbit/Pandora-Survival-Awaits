@@ -2,24 +2,23 @@
 <Defs>
 
   <PawnKindDef Name="NaviBase" Abstract="True">
-    <defaultFactionType>NaviFaction</defaultFactionType>
-    <race>Alien_Na'vi</race>
-	<backstoryCategory>Na'viBackstory</backstoryCategory>
+    <defaultFactionType>NaviFaction1</defaultFactionType>
+    <race>Alien_Navi</race>
+	<backstoryCategory>NaviBackstory</backstoryCategory>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
     <apparelTags>
       <li>Tribal</li>
     </apparelTags>
 	 <weaponTags>
-	  <li>NeolithicMelee</li>
-	  <li>NeolithicRanged</li>
+	  <li>NeolithicMeleeDecent</li>
+	  <li>NeolithicRangedDecent</li>
     </weaponTags>
   </PawnKindDef> 
 
   <PawnKindDef Name="NaviCivBase" ParentName="NaviBase" Abstract="True">
     <combatPower>30</combatPower>
-	<race>Alien_Na'vi</race>
+	<race>Alien_Navi</race>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <gearHealthRange>
@@ -35,8 +34,8 @@
       <max>2500</max>
     </weaponMoney>
     <weaponTags>
-	  <li>NeolithicMelee</li>
-	  <li>NeolithicRanged</li>
+	  <li>NeolithicMeleeDecent</li>
+	  <li>NeolithicRangedDecent</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -122,7 +121,7 @@
       <max>3000</max>
     </weaponMoney>
     <weaponTags>
-	  <li>NeolithicRanged</li>
+	  <li>NeolithicRangedDecent</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -146,7 +145,7 @@
   <PawnKindDef Name="NaviMilBase" ParentName="NaviBase" Abstract="True">
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <isFighter>true</isFighter>
-	<race>Alien_Na'vi</race>
+	<race>Alien_Navi</race>
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
 	<minGenerationAge>19</minGenerationAge>
@@ -167,8 +166,8 @@
       <max>20000</max>
     </weaponMoney>
     <weaponTags>
-	 <li>NeolithicRanged</li>
-	 <li>NeolithicMelee</li>
+	 <li>NeolithicRangedDecent</li>
+	 <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -185,7 +184,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -225,7 +224,7 @@
       <max>28000</max>
     </weaponMoney>
     <weaponTags>
-	 <li>NeolithicRanged</li>
+	 <li>NeolithicRangedDecent</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -250,7 +249,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
