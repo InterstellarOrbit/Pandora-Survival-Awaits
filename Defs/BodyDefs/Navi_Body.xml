@@ -278,15 +278,6 @@
                     </li>
                     <li>
                       <def>Finger</def>
-                      <customLabel>left middle finger</customLabel>
-                      <coverage>0.08</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>LeftHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
                       <customLabel>left index finger</customLabel>
                       <coverage>0.07</coverage>
                       <groups>
@@ -382,15 +373,6 @@
                     </li>
                     <li>
                       <def>Finger</def>
-                      <customLabel>right middle finger</customLabel>
-                      <coverage>0.08</coverage>
-                      <groups>
-                        <li>Hands</li>
-                        <li>RightHand</li>
-                      </groups>
-                    </li>
-                    <li>
-                      <def>Finger</def>
                       <customLabel>right index finger</customLabel>
                       <coverage>0.07</coverage>
                       <groups>
@@ -466,16 +448,8 @@
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>left fourth toe</customLabel>
+                  <customLabel>left third toe</customLabel>
                   <coverage>0.07</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>left middle toe</customLabel>
-                  <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -545,16 +519,8 @@
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>right fourth toe</customLabel>
+                  <customLabel>right third toe</customLabel>
                   <coverage>0.07</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>right middle toe</customLabel>
-                  <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>

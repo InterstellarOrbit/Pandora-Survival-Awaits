@@ -2,6 +2,72 @@
 <Defs>
 
   <AlienRace.BackstoryDef>
+    <defName>ChildForager</defName>
+    <title>Child forager</title>
+    <titleShort>Forager</titleShort>
+    <baseDescription>NAME gathered fruits, fuel and resources for the tribe to sustain life. HECAP learned to live off the planet, but HECAP combat skills are less than average.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+	   <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>EnglishStudent</defName>
+    <title>english student</title>
+    <titleShort>student</titleShort>
+    <baseDescription>NAME was a lucky student at Grace Augustine's School until the attack which shut down the school.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
     <defName></defName>
     <title></title>
     <titleShort></titleShort>
@@ -24,13 +90,260 @@
         <defName></defName>
         <amount></amount>
       </li>
+	   <li>
+        <defName></defName>
+        <amount></amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount></amount>
+      </li>
     </skillGains>
     <spawnCategories>
       <li>NaviBackstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription>NAME</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	  <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	   <li>
+        <defName></defName>
+        <amount></amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount></amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription>NAME</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	  <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	   <li>
+        <defName></defName>
+        <amount></amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount></amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName></defName>
+    <title></title>
+    <titleShort></titleShort>
+    <baseDescription>NAME</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+      <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	  <li>
+        <defName></defName>
+        <amount></amount>
+      </li>
+	   <li>
+        <defName></defName>
+        <amount></amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount></amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  
+  -------------------------------------------------------------
+  
 
   <AlienRace.BackstoryDef>
+      <defName>Hunter</defName>
+      <title>hunter</title>
+      <titleShort>Hunter</titleShort>
+      <baseDescription>NAME was a skilled hunter. This allowed HECAP to sharpen HECAP shooting skills, Gun or Bow.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>30</maleCommonality>
+  	<femaleCommonality>10</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+          <defName>Shooting</defName>
+          <amount>5</amount>
+        </li>
+        <li>
+          <defName>Melee</defName>
+          <amount>2</amount>
+        </li>
+  	  <li>
+          <defName>Cooking</defName>
+          <amount>3</amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>NaviBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+	
+	 <AlienRace.BackstoryDef>
+      <defName>Weaver</defName>
+      <title>weaver</title>
+      <titleShort>Weaver</titleShort>
+      <baseDescription>NAME weaved clothing for the tribe.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>10</maleCommonality>
+  	<femaleCommonality>30</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+          <defName>Crafting</defName>
+          <amount>5</amount>
+        </li>
+        <li>
+          <defName>Melee</defName>
+          <amount>2</amount>
+        </li>
+  	  <li>
+          <defName>Medicine</defName>
+          <amount>1</amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>NaviBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+	
+	 <AlienRace.BackstoryDef>
+      <defName>Healer</defName>
+      <title>healer</title>
+      <titleShort>Healer</titleShort>
+      <baseDescription>NAME took care of the sick, mended the wounded and cared for the elderly. HECAP also readied a body to go with Eywa.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>10</maleCommonality>
+  	<femaleCommonality>30</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+          <defName>Medicine</defName>
+          <amount>5</amount>
+        </li>
+        <li>
+          <defName>Crafting</defName>
+          <amount>2</amount>
+        </li>
+  	  <li>
+          <defName>Social</defName>
+          <amount>3</amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>NaviBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+	
+	 <AlienRace.BackstoryDef>
+      <defName>Gatherer</defName>
+      <title>gatherer</title>
+      <titleShort>Gatherer</titleShort>
+      <baseDescription>NAME gathered fruits, fuel and resources for the tribe to sustain life. HECAP learned to live off the planet, but HECAP combat skills are less than average.</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>20</maleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+	   <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+	  </li>
+		<li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      </skillGains>
+      <spawnCategories>
+        <li>NaviBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
+	
+	 <AlienRace.BackstoryDef>
       <defName></defName>
       <title></title>
       <titleShort></titleShort>
@@ -59,4 +372,32 @@
       </spawnCategories>
     </AlienRace.BackstoryDef>
 	
+	 <AlienRace.BackstoryDef>
+      <defName></defName>
+      <title></title>
+      <titleShort></titleShort>
+      <baseDescription>NAME</baseDescription>
+      <bodyTypeMale>Male</bodyTypeMale>
+      <bodyTypeFemale>Female</bodyTypeFemale>
+  		<maleCommonality>20</maleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
+      <slot>Adulthood</slot>
+      <skillGains>
+        <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+        <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+  	  <li>
+          <defName></defName>
+          <amount></amount>
+        </li>
+      </skillGains>
+      <spawnCategories>
+        <li>NaviBackstory</li>
+      </spawnCategories>
+    </AlienRace.BackstoryDef>
 </Defs>

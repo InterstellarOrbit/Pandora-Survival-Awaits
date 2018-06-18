@@ -18,7 +18,7 @@
       <description>A tail of a Na'vi.</description>
       <graphicData>
          <texPath>Things/Item/BodyPart/Organ</texPath>
-         <graphicClass></graphicClass>
+         <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
       <statBases>
          <MarketValue>200</MarketValue>
