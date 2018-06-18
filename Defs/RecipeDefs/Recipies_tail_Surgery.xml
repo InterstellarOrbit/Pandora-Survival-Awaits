@@ -9,15 +9,15 @@
     <workSkillLearnFactor>16</workSkillLearnFactor>
   </RecipeDef>
 
-  <RecipeDef Name="SurgeryNa'viTails" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryNaviTails" ParentName="SurgeryFlesh" Abstract="True">
   <recipeUsers>
-  <li>Alien_Na'vi</li>
+	<li>Alien_Navi</li>
   </recipeUsers>
   </RecipeDef>
   
- <RecipeDef ParentName="SurgeryNa'viTails">
-      <defName>InstallNa'viTail</defName>
-      <label>install Na'vi tail</label>
+ <RecipeDef ParentName="SurgeryNaviTails">
+      <defName>InstallNaviTail</defName>
+      <label>install Navi tail</label>
       <description>Replace missing or damaged tail.</description>
       <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
       <jobString>Installing tail.</jobString>
@@ -34,7 +34,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>Tail</li>
+                  <li>NaviTail</li>
                </thingDefs>
             </filter>
             <count>1</count>
@@ -45,15 +45,15 @@
             <li>Medicine</li>
          </categories>
          <thingDefs>
-            <li>Tail</li>
+            <li>NaviTail</li>
          </thingDefs>
       </fixedIngredientFilter>
       <appliedOnFixedBodyParts>
-         <li>Tail</li>
+         <li>NaviTail</li>
       </appliedOnFixedBodyParts>
    </RecipeDef>
 
- <RecipeDef ParentName="SurgeryNa'viTails">
+ <RecipeDef ParentName="SurgeryNaviTails">
       <defName>InstallTailCover</defName>
       <label>install tail cover</label>
       <description>Installs an anti-septic patch over the missing tail.</description>
@@ -87,13 +87,13 @@
          </thingDefs>
       </fixedIngredientFilter>
       <appliedOnFixedBodyParts>
-         <li>Tail</li>
+         <li>NaviTail</li>
       </appliedOnFixedBodyParts>
       <addsHediff>TailCover</addsHediff>
    </RecipeDef>
 
- <RecipeDef ParentName="SurgeryNa'viTails">
-      <defName>InstallBionicNa'viTail</defName>
+ <RecipeDef ParentName="SurgeryNaviTails">
+      <defName>InstallBionicNaviTail</defName>
       <label>install bionic tail</label>
       <description>Installs bionic tail.</description>
       <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -111,7 +111,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>BionicNa'viTail</li>
+                  <li>BionicNaviTail</li>
                </thingDefs>
             </filter>
             <count>1</count>
@@ -122,13 +122,13 @@
             <li>Medicine</li>
          </categories>
          <thingDefs>
-            <li>BionicNa'viTail</li>
+            <li>BionicNaviTail</li>
          </thingDefs>
       </fixedIngredientFilter>
       <appliedOnFixedBodyParts>
-         <li>Tail</li>
+         <li>NaviTail</li>
       </appliedOnFixedBodyParts>
-      <addsHediff>BionicNa'viTail</addsHediff>
+      <addsHediff>BionicNaviTail</addsHediff>
    </RecipeDef>
 
 </Defs> 
