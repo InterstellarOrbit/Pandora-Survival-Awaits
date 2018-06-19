@@ -7,6 +7,7 @@
     <description>Tanned, dried, scraped Na'vi skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
     <graphicData>
       <color>(51,102,255)</color>
+      <colorTwo>(51,102,255)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>4.2</MarketValue>
