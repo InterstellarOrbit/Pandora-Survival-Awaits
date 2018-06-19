@@ -3,7 +3,7 @@
 
 	<BodyPartDef>
    	 <defName>NaviTail</defName>
-   	 <label>na'vi tail</label>
+   	 <label>navi tail</label>
    	 <hitPoints>15</hitPoints>
    	 <frostbiteVulnerability>8</frostbiteVulnerability>
    	 <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
@@ -14,8 +14,8 @@
 
    <ThingDef ParentName="BodyPartNaturalBase">
       <defName>NaviTail</defName>
-      <label>na'vi tail</label>
-      <description>A tail of a Na'vi.</description>
+      <label>navi tail</label>
+      <description>A tail of a Navi.</description>
       <graphicData>
          <texPath>Things/Item/BodyPart/Organ</texPath>
          <graphicClass>Graphic_Single</graphicClass>

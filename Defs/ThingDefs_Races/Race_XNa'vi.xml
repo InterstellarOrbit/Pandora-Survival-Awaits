@@ -13,14 +13,14 @@
 				<immuneToAge>true</immuneToAge>
 				<alienPartGenerator>
 					<aliencrowntypes>
-						<li>Average_Normal</li>
 						<li>Average_Pointy</li>
 					</aliencrowntypes>
 					<alienbodytypes>
-					 <li>Hulk</li>
 					 <li>Female</li>
 					 <li>Male</li>
 					</alienbodytypes>
+					<customDrawSize>(1.2,1.4)</customDrawSize>
+					<useGenderedHeads>false</useGenderedHeads>
 					<alienskincolorgen Class="ColorGenerator_Options">
 						<options>
 				 <li>
@@ -107,7 +107,7 @@
 					<weight>10</weight>
 					<only>RGBA(0.333,0.419,0.184,1)</only>
 				</li>
-					</options>
+						</options>
 					</alienskincolorgen>
 					
 					<alienskinsecondcolorgen Class="ColorGenerator_Options">
@@ -140,6 +140,7 @@
 			</generalSettings>
 			<graphicPaths>
 				<li>
+					<head>Navi/Heads/</head>				
 				</li>
 			</graphicPaths>
 			<hairSettings>
@@ -325,37 +326,6 @@
 			<li>OrganicStandard</li>
 		  </hediffGiverSets>
 		</race>
-		<recipes>
-		  <li>InstallArchotechEye</li>
-		  <li>InstallArchotechArm</li>
-		  <li>InstallArchotechLeg</li>
-		  <li>InstallPowerClaw</li>
-		  <li>InstallBionicEye</li>
-		  <li>InstallBionicArm</li>
-		  <li>InstallBionicLeg</li>
-		  <li>InstallBionicSpine</li>
-		  <li>InstallBionicHeart</li>
-		  <li>InstallBionicStomach</li>
-		  <li>InstallBionicEar</li>
-		  <li>InstallSimpleProstheticArm</li>
-		  <li>InstallSimpleProstheticLeg</li>
-		  <li>InstallSimpleProstheticHeart</li>
-		  <li>InstallCochlearImplant</li>
-		  <li>InstallPegLeg</li>
-		  <li>InstallWoodenFoot</li>
-		  <li>InstallDenture</li>
-		  <li>InstallJoywire</li>
-		  <li>InstallPainstopper</li>
-		  <li>InstallNaturalHeart</li>
-		  <li>InstallNaturalLung</li>
-		  <li>InstallNaturalKidney</li>
-		  <li>InstallNaturalLiver</li>
-		  <li>ExciseCarcinoma</li>
-		  <li>AdministerMechSerumHealer</li>
-		  <li>RemoveBodyPart</li>
-		  <li>Euthanize</li>
-		  <li>Anesthetize</li>
-		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>
