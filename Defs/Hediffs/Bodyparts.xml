@@ -2,10 +2,10 @@
 <Defs>
 
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>BionicNaviTail</defName>
-    <label>bionic Navi tail</label>
+    <defName>BionicNa'viTail</defName>
+    <label>bionic Na'vi tail</label>
     <labelNoun>an archotech arm</labelNoun>
-    <spawnThingOnRemoved>BionicNaviTail</spawnThingOnRemoved>
+    <spawnThingOnRemoved>BionicNa'viTail</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.25</partEfficiency>

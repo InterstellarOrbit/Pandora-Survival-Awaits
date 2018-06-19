@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+   
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicNa'viTail</defName>
+    <label>bionic Na'vi tail</label>
+    <description>A Bionic Tail that allows increased movement and agility.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/BodyPartBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>TailCover</defName>
+    <label>Tail cover</label>
+    <description>Tail cover that prevents diseases. Literally a piece of cloth with anti-septic properties.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>90</MarketValue>
+      <Mass>.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+</Defs>

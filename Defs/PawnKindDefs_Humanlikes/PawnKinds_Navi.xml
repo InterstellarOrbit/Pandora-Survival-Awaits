@@ -3,8 +3,8 @@
 
   <PawnKindDef Name="NaviBase" Abstract="True">
     <defaultFactionType>NaviFaction1</defaultFactionType>
-    <race>Alien_Navi</race>
-	<backstoryCategory>NaviBackstory</backstoryCategory>
+    <race>Alien_Na'vi</race>
+	<backstoryCategory>Na'viBackstory</backstoryCategory>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <apparelTags>
@@ -18,7 +18,7 @@
 
   <PawnKindDef Name="NaviCivBase" ParentName="NaviBase" Abstract="True">
     <combatPower>30</combatPower>
-	<race>Alien_Navi</race>
+	<race>Alien_Na'vi</race>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <gearHealthRange>
@@ -145,7 +145,7 @@
   <PawnKindDef Name="NaviMilBase" ParentName="NaviBase" Abstract="True">
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <isFighter>true</isFighter>
-	<race>Alien_Navi</race>
+	<race>Alien_Na'vi</race>
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
 	<minGenerationAge>19</minGenerationAge>

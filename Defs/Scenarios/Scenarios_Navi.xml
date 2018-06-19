@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>NaviScenario</defName>
+    <label>New Start</label>
+    <description>A new Navi tribal grounds.</description>
+    <scenario>
+      <summary>The three of you are starting a new tribe.</summary>
+     <playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>NaviPlayerTribe</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>3</pawnCount>
+				<pawnChoiceCount>3</pawnChoiceCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>800</count>
+			</li>
+			<!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>New Navi Tribe</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+		</parts>
+    </scenario>
+  </ScenarioDef>
+ 
+</Defs>
