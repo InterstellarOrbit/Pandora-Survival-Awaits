@@ -2,9 +2,9 @@
 <Defs>
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-		<defName>Alien_Navi</defName>
-		<label>Navi</label>
-		<description>The Navi (English: The People) are a race of sentient extraterrestrial humanoids who inhabit the lush jungle moon of Pandora. Humans are known to refer to them as "blues", "savages", "the locals", "hostiles", "the natives", or "blue monkeys".</description>
+		<defName>Alien_Na'vi</defName>
+		<label>Na'vi</label>
+		<description>The Na'vi (English: The People) are a race of sentient extraterrestrial humanoids who inhabit the lush jungle moon of Pandora. Humans are known to refer to them as "blues", "savages", "the locals", "hostiles", "the natives", or "blue monkeys".</description>
 		<alienRace>
 			<generalSettings>
 				<humanRecipeImport>true</humanRecipeImport>
@@ -281,25 +281,25 @@
 		  <intelligence>Humanlike</intelligence>
 		  <makesFootprints>true</makesFootprints>
 		  <lifeExpectancy>130</lifeExpectancy>
-		  <leatherDef>Leather_Navi</leatherDef>
-		  <nameGenerator>NamerPersonNavi</nameGenerator>
-		  <nameGeneratorFemale>NamerPersonNaviF</nameGeneratorFemale>
-		  <body>Navi</body>
+		  <leatherDef>Leather_Na'vi</leatherDef>
+		  <nameGenerator>NamerPersonNa'vi</nameGenerator>
+		  <nameGeneratorFemale>NamerPersonNa'viF</nameGeneratorFemale>
+		  <body>Na'vi</body>
 		  <meatColor>(0, 100, 0)</meatColor>
 		  <baseBodySize>1.80</baseBodySize>
 		  <baseHealthScale>1.60</baseHealthScale>
 		  <foodType>OmnivoreHuman</foodType>
 		  <lifeStageAges>
 			<li>
-			  <def>AdultNavi</def>
+			  <def>AdultNa'vi</def>
 			  <minAge>18</minAge>
 			</li>
 			<li>
-			  <def>ElderNavi</def>
+			  <def>ElderNa'vi</def>
 			  <minAge>50</minAge>
 			</li>
 			<li>
-			  <def>AncestorNavi</def>
+			  <def>AncestorNa'vi</def>
 			  <minAge>90</minAge>
 			</li>
 		  </lifeStageAges>

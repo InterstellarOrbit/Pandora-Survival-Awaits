@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Name="NaviFaction" Abstract="True">
+    <goodwillDailyGain>0.5</goodwillDailyGain>
+    <goodwillDailyFall>0.5</goodwillDailyFall>
+	<pawnSingular>na'vi</pawnSingular>
+    <pawnsPlural>na'vi</pawnsPlural>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>leader</leaderTitle>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<techLevel>Neolithic</techLevel>
+	<backstoryCategory>NaviBackstory</backstoryCategory>
+	<geneticVariance>0.8</geneticVariance>
+	<hairTags>
+		<li>NonExisting</li>
+	</hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Navi_BulkGoods</li>
+      <li>Caravan_Navi_Exotic</li>
+      <li>Caravan_Neolithic_Navi_BulkGoods</li>
+	  <li>Caravan_Neolithic_Navi_WarMerchant</li>
+      <li>Caravan_Neolithic_Navi_Slaver</li>
+	  <li>Caravan_Neolithic_Navi_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Na'vi_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <NaviTribeMember>200</NaviTribeMember>
+          <NaviGuard>100</NaviGuard>
+          <NaviFighter>200</NaviFighter>
+          <NaviHunter>100</NaviHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <NaviTribeMember>100</NaviTribeMember>
+          <NaviHunter>80</NaviHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Tribal_Trader>1</Tribal_Trader>
+        </traders>
+        <guards>
+          <NaviTribeMember>200</NaviTribeMember>
+          <NaviGuard>100</NaviGuard>
+          <NaviFighter>200</NaviFighter>
+          <NaviHunter>100</NaviHunter>
+        </guards>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <NaviTribeMember>200</NaviTribeMember>
+          <NaviGuard>100</NaviGuard>
+          <NaviFighter>200</NaviFighter>
+          <NaviHunter>100</NaviHunter>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+  </FactionDef>
+
+  <FactionDef ParentName="NaviFaction">
+    <defName>NaviFaction1</defName>
+    <label>civil Na'vi tribe</label>
+    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
+    <startingGoodwill>
+      <min>0</min>
+      <max>0</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-50</min>
+      <max>50</max>
+    </naturalColonyGoodwill>
+  </FactionDef>
+
+  <FactionDef ParentName="NaviFaction">
+    <defName>NaviFaction2</defName>
+    <label>hostile Na'vi Tribe</label>
+    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them.</description>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>-20</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </naturalColonyGoodwill>
+  </FactionDef>
+
+</Defs>
