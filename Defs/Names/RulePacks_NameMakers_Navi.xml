@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+    <defName>NamerPersonNaviMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Names_NaviM]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Names_NaviM</keyword>
+          <path>NameBanks/Names_Na'viM</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+ <RulePackDef>
+    <defName>NamerPersonNaviFemale</defName>
+    <rulePack>
+      <rulesStrings>           
+		<li>name->[Names_NaviF]</li>
+      </rulesStrings>
+      <rulesRaw>       
+		<li Class="Rule_File">
+          <keyword>Names_NaviF</keyword>
+          <path>NameBanks/Names_Na'viF</path>
+		</li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>
