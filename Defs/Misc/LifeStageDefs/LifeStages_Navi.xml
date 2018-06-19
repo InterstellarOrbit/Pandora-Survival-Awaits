@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LifeStageDef>
+    <defName>AdultNavi</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>ElderNavi</defName>
+    <label>elder</label>
+    <visible>true</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>AncestorNavi</defName>
+    <label>ancestor</label>
+    <visible>true</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+</Defs>
