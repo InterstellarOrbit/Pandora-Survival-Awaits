@@ -1,741 +1,400 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <AlienRace.BackstoryDef>
-    <defName>EquiumThug</defName>
-    <title>EquiumThug</title>
-	<titleShort>Thug</titleShort>
-    <baseDescription>NAME grew up mean and angry on the street.</baseDescription>
-    
-	<bodyTypeFemale>Hulk</bodyTypeFemale>
-	<bodyTypeMale>Hulk</bodyTypeMale>
- 
+    <defName>Forager</defName>
+    <title>Forager</title>
+	<titleShort>Forager</titleShort>
+    <baseDescription>NAME was a Forager.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>2</amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount>4</amount>
-      </li>
-	  <li>
         <defName>Growing</defName>
-        <amount>2</amount>
+        <amount>3</amount>
       </li>
-    </skillGains>
-	
-    <workDisables>
-        <li>Social</li>
-    </workDisables>
+	  <li>
+		<defName>Animals</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
 	 <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
+      <li>NaviBackstory</li>
     </spawnCategories>
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef>
-    <defName>EquiumArtkid</defName>
-    <title>Naturalartist</title>
-	<titleShort>Artist</titleShort>
-    <baseDescription>NAME was great at art years ago. </baseDescription>    
+    <defName>EnglishStudent</defName>
+    <title>EnglishStudent</title>
+	<titleShort>EnglishStudent</titleShort>
+    <baseDescription>NAME was an english student.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-
-	 <slot>Childhood</slot>
+	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Artistic</defName>
-        <amount>6</amount>
-      </li>
-	        <li>
-        <defName>Crafting</defName>
+        <defName>Social</defName>
         <amount>4</amount>
       </li>
-    </skillGains>
-	<spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
+	  </skillGains>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
 </AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
-    <defName>EquiumTruckerKid</defName>
-    <title>TruckerKid</title>
-    <titleShort>TruckerKid</titleShort>
-    <baseDescription>NAME grew up along proud horse truckers. </baseDescription>    
+<AlienRace.BackstoryDef>
+    <defName>FirebombingSurvivor</defName>
+    <title>Firebombing Survivor</title>
+	<titleShort>Firebombing</titleShort>
+    <baseDescription>NAME was a survivor of a devastating firebombing. HECAP learned to rebuild HECAP village, but would never be the same.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-
 	<slot>Childhood</slot>
     <skillGains>
-          <li>
+      <li>
         <defName>Construction</defName>
         <amount>3</amount>
       </li>
-      <li>
-        <defName>Social</defName>
-        <amount>7</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>4</amount>
-      </li>
-  </skillGains>
-  <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumPreppyKid</defName>
-    <title>EquiumPreppyKid</title>
-    <titleShort>Corekid</titleShort>
-    <baseDescription>NAME was born in a rich family and this horse is quite popular at school.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Childhood</slot>
-    <skillGains>
-      <li>
-        <defName>Social</defName>
-        <amount>5</amount>
-      </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Medicine</defName>
         <amount>1</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
+	</skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-      <AlienRace.BackstoryDef>
-    <defName>EquiumPlaygroundKid</defName>
-    <title>EquiumPlaygroundkid</title>
-    <titleShort>Playgroundkid</titleShort>
-    <baseDescription>NAME is a playground driller.</baseDescription>
-	 <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
+<AlienRace.BackstoryDef>
+    <defName>BanishedChild</defName>
+    <title>BanishedChild</title>
+	<titleShort>BanishedChild</titleShort>
+    <baseDescription>NAME was banished from HECAP tribe for killing another member of HECAP tribe. For many years HECAP learned to live off the land.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
-        <amount>2</amount>
-      </li>
-	  <li>
-        <defName>Mining</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumCarpenter</defName>
-    <title>EquiumCarpenter</title>
-    <titleShort>Carpenter</titleShort>
-    <baseDescription>NAME was an experienced and dedicated carpenter. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
         <defName>Shooting</defName>
         <amount>3</amount>
       </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>6</amount>
+	  <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-      <AlienRace.BackstoryDef>
-    <defName>EquiumSexSlave</defName>
-    <title>SexSlave</title>
-    <titleShort>Slave</titleShort>
-    <baseDescription>NAME was sold to the Alien trafficking trade. Unfortunately, HECAP fell into a wrong hand. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+	  <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+	</skillGains>
     <workDisables>
-     <li>Hauling</li>
-	 <li>Cleaning</li>
+        <li>Social</li>
     </workDisables>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Loner</defName>
+    <title>Loner</title>
+	<titleShort>Loner</titleShort>
+    <baseDescription>NAME was a loner.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+	</skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Thief</defName>
+    <title>Thief</title>
+	<titleShort>Thief</titleShort>
+    <baseDescription>NAME was a thief. HECAP never got caught.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>5</amount>
       </li>
-	   <li>
-        <defName>Growing</defName>
+	  </skillGains>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Firekeeper</defName>
+    <title>Firekeeper</title>
+	<titleShort>Firekeeper</titleShort>
+    <baseDescription>NAME was a firekeeper.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
         <amount>4</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-      <AlienRace.BackstoryDef>
-    <defName>EquiumMiner</defName>
-    <title>EquiumMiner</title>
-    <titleShort>Miner</titleShort>
-    <baseDescription>NAME knows how to operate drills and other mining equipment. HECAP is a horse miner !</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
+--------------------------------------------------------------------------------------------
 
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Hunter</defName>
+    <title>Hunter</title>
+	<titleShort>Hunter</titleShort>
+    <baseDescription>NAME was an effective hunter, providing food for the tribe.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
         <amount>6</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+	</skillGains>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
-    <defName>EquiumHunter</defName>
-    <title>EquiumHunter</title>
-    <titleShort>Hunter</titleShort>
-    <baseDescription>NAME is a professional hunter. Even thou horses are herbivore. NAME hunts for fun. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
+<AlienRace.BackstoryDef>
+    <defName>Weaver</defName>
+    <title>Weaver</title>
+	<titleShort>Weaver</titleShort>
+    <baseDescription>NAME was a Weaver.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>8</amount>
+      </li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
 
+<AlienRace.BackstoryDef>
+    <defName>Gatherer</defName>
+    <title>Gatherer</title>
+	<titleShort>Gatherer</titleShort>
+    <baseDescription>NAME gathered food for the clan.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+	</skillGains>
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Healer</defName>
+    <title>Healer</title>
+	<titleShort>Healer</titleShort>
+    <baseDescription>NAME was a healer, and dealt with wounds of fellow tribemembers, Direhorses and Ikrans, or Banshees.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Handler</defName>
+    <title>Handler</title>
+	<titleShort>Handler</titleShort>
+    <baseDescription>NAME dealt with keeping the Direhorses and Banshees in order, feeding, training and ceromonially burying them.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Animals</defName>
-        <amount>6</amount>
+        <amount>8</amount>
       </li>
-      <li>
-        <defName>Social</defName>
-        <amount>2</amount>
-      </li>
-	  <li>
-        <defName>Shooting</defName>
-        <amount>2</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef>
-    <defName>EquiumCowboy</defName>
-    <title>Cowboy</title>
-    <titleShort>Cowboy</titleShort>
-    <baseDescription>NAME grew up in a farm, HECAP knows HIS ways around animals.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Messager</defName>
+    <title>Messager</title>
+	<titleShort>Messager</titleShort>
+    <baseDescription>NAME was a Messager, tasked with keeping diplomacy with other clans.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
       <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
         <defName>Animals</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
         <amount>2</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-    <AlienRace.BackstoryDef>
-    <defName>EquiumFarmer</defName>
-    <title>EquiumFarmer</title>
-    <titleShort>Farmer</titleShort>
-    <baseDescription>NAME is a regular farmer or you can call HECAP a regular farm horse.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Banished</defName>
+    <title>Banished</title>
+	<titleShort>Banished</titleShort>
+    <baseDescription>NAME was banished from HECAP clan.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
-      <li>
+     <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
         <defName>Melee</defName>
-        <amount>3</amount>
+        <amount>2</amount>
       </li>
-      <li>
+	  <li>
         <defName>Growing</defName>
-        <amount>6</amount>
+        <amount>2</amount>
       </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-
-     <AlienRace.BackstoryDef>
-    <defName>EquiumClerk</defName>
-    <title>Deskclerk</title>
-    <titleShort>Clerk</titleShort>
-    <baseDescription>NAME was a desk jockey using HIS hooves to type on keyboards. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>AdultLoner</defName>
+    <title>AdultLoner</title>
+	<titleShort>AdultLoner</titleShort>
+    <baseDescription>NAME was a loner. HECAP left HECAP clan purposely.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
-        <amount>5</amount>
-      </li>
-      <li>
-        <defName>Artistic</defName>
         <amount>3</amount>
       </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef>
-    <defName>EquiumDoctor</defName>
-    <title>EquiumDoctor</title>
-    <titleShort>Doctor</titleShort>
-    <baseDescription>NAME is one of the smart horses with a PhD. HECAP is dedicated to healing others.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Medicine</defName>
-        <amount>8</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-	 <li>EquiumBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumCook</defName>
-    <title>EquiumCook</title>
-    <titleShort>Cook</titleShort>
-    <baseDescription>NAME is a professional chef. HECAP doesnt just make vegetarian dishes. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Cooking</defName>
-        <amount>8</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-	 <li>EquiumBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-  <AlienRace.BackstoryDef>
-    <defName>EquiumTribeLeader</defName>
-    <title>EquiumTribeLeader</title>
-    <titleShort>Chief</titleShort>
-    <baseDescription>NAME has an experience in leading a a small community.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Medicine</defName>
-        <amount>4</amount>
-      </li>
-	  <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-	 <li>EquiumBackstory</li>
-	 <li>EquiumTribeBs</li>
-	 <li>EquiumTribeleaderBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-  
-  <AlienRace.BackstoryDef>
-    <defName>EquiumWarrior</defName>
-    <title>EquiumWarrior</title>
-    <titleShort>Warrior</titleShort>
-    <baseDescription>NAME has experience in defending his community.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-	  <li>
-       <defName>Melee</defName>
-        <amount>5</amount>
-	  </li>
-	   <li>
-        <defName>Shooting</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-	 <li>EquiumBackstory</li>
-	 <li>EquiumTribeBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-  
-  <AlienRace.BackstoryDef>
-    <defName>EquiumTribekid</defName>
-    <title>EquiumTribelKid</title>
-    <titleShort>TribelKid</titleShort>
-    <baseDescription>NAME has grown up in a small community.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Childhood</slot>
-    <skillGains>
-      <li>
-        <defName>Growing</defName>
-        <amount>3</amount>
-      </li>
-	  <li>
-        <defName>Construction</defName>
-        <amount>2</amount>
-      </li>	  
-    </skillGains>
-    <spawnCategories>
-	 <li>EquiumBackstory</li>
-	 <li>EquiumTribeBs</li>
-	<li>EquiumTribeleaderBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-
-  <AlienRace.BackstoryDef>
-    <defName>PrivateEquium</defName>
-    <title>ArmyPrivate</title>
-    <titleShort>Private</titleShort>
-    <baseDescription>NAME was enlisted and served for HIS empire on the front line. HECAP has some combat experience and definitely knows how to fire a rifle with HIS hooves. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Teacher</defName>
+    <title>Teacher</title>
+	<titleShort>Teacher</titleShort>
+    <baseDescription>NAME taught tribemembers how to fight, whether it be enemy clans, or RDA members.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>8</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>5</amount>
-      </li>
-	   
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>OfficerEquium</defName>
-    <title>ArmyOfficer</title>
-    <titleShort>officer</titleShort>
-    <baseDescription>NAME is an officer for the Equium Empires army. NAME has great leading skills and numerous of training.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumTrader</defName>
-    <title>EquiumTrader</title>
-    <titleShort>Trader</titleShort>
-    <baseDescription>NAME was a caravan horse, trading goods across the HIS planet. </baseDescription>    
-    <bodyTypeMale>Hulk</bodyTypeMale>
-    <bodyTypeFemale>Hulk</bodyTypeFemale>
-
-      <slot>Adulthood</slot>
-    <skillGains>
-          <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
         <amount>10</amount>
       </li>
-      <li>
-        <defName>Shooting</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-	<spawnCategories>
-      <li>EquiumBackstory</li>	  
-    </spawnCategories>
-    </AlienRace.BackstoryDef>
-
-	  <AlienRace.BackstoryDef>
-    <defName>EquiumBountyHunter</defName>
-    <title>EquiumBountyHunter</title>
-    <titleShort>Merc</titleShort>
-    <baseDescription>NAME had been hired to kill. HECAP is a very dangerous horse.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
+	   <li>
         <defName>Melee</defName>
-        <amount>6</amount>
+        <amount>10</amount>
       </li>
-      <li>
-        <defName>Shooting</defName>
-        <amount>7</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>4</amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-  	  <AlienRace.BackstoryDef>
-    <defName>EquiumArmySF</defName>
-    <title>ExSpecialForce</title>
-    <titleShort>Operator</titleShort>
-    <baseDescription>NAME been through months of training and numbers of military operations.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Shooting</defName>
-        <amount>8</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-  	  <AlienRace.BackstoryDef>
-    <defName>EquiumRanger</defName>
-    <title>Ranger</title>
-    <titleShort>Ranger</titleShort>
-    <baseDescription>NAME was a ranger, not a park ranger. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Warrior</defName>
+    <title>Warrior</title>
+	<titleShort>Warrior</titleShort>
+    <baseDescription>NAME was a warrior for HECAP clan.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>7</amount>
+        <amount>4</amount>
       </li>
 	   <li>
-        <defName>Social</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-      <AlienRace.BackstoryDef>
-    <defName>EquiumRaider</defName>
-    <title>EquiumRaider</title>
-    <titleShort>Bandit</titleShort>
-    <baseDescription>NAME doesnt live by the rule. HECAP gets what HECAP he wants the easy way.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
         <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
-	  <li>
-        <defName>Crafting</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-      <AlienRace.BackstoryDef>
-    <defName>EquiumArmyCook</defName>
-    <title>ArmyChef</title>
-    <titleShort>ArmyChef</titleShort>
-    <baseDescription>NAME enlisted in the Army and happened to be put in the kitchen. </baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>4</amount>
-      </li>
-	  <li>
-        <defName>Melee</defName>
-        <amount>4</amount>
-      </li>
-	  	<li>
-        <defName>Cooking</defName>
-        <amount>5</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-	  <li>EquiumMilitaryBs</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-  <AlienRace.BackstoryDef>
-    <defName>EquiumMadScientist</defName>
-    <title>EquiumMadScientist</title>
-    <titleShort>MadScientist</titleShort>
-    <baseDescription>NAME has dedicated HIS life to turn his hooves to something more useful.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Crafting</defName>
-        <amount>5</amount>
-      </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount>8</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumProgrammer</defName>
-    <title>EquiumProgrammer</title>
-    <titleShort>Programmer</titleShort>
-    <baseDescription>NAME has a degree in computer science. HECAP is also a big horsey nerd.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Shooting</defName>
         <amount>3</amount>
       </li>
-	  <li>
-        <defName>Intellectual</defName>
-        <amount>5</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
-
-    <AlienRace.BackstoryDef>
-    <defName>EquiumDrugLord</defName>
-    <title>EquiumGangster</title>
-    <titleShort>Gangster</titleShort>
-    <baseDescription>NAME has never been employed and was part of anything that is illegal where NAME came from.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-
-    <slot>Adulthood</slot>
+<AlienRace.BackstoryDef>
+    <defName>Storykeeper</defName>
+    <title>Storykeeper</title>
+	<titleShort>Storykeeper</titleShort>
+    <baseDescription>NAME was a storykeeper for HECAP clan.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>4</amount>
+       <li>
+        <defName>Intellectual</defName>
+        <amount>10</amount>
       </li>
-	  <li>
-        <defName>Social</defName>
-        <amount>4</amount>
-      </li>
-	  <li>
-        <defName>Medicine</defName>
-        <amount>4</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>EquiumBackstory</li>
+	</skillGains>	  
+	 <spawnCategories>
+      <li>NaviBackstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+</AlienRace.BackstoryDef>
 
 </Defs>
