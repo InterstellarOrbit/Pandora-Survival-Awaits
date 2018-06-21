@@ -17,7 +17,7 @@
       <label>navi tail</label>
       <description>A tail of a Navi.</description>
       <graphicData>
-         <texPath>Things/Item/BodyPart/Organ</texPath>
+         <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
          <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
       <statBases>
