@@ -7,6 +7,10 @@ Na'vi Art: Astra
 
 Changelog: 
 
+Jume 21st
+
+-Added Art for Na'vi, final stretch for v0.1 
+
 June 18th, 2018
 
 -Added Na'vi, a playable race with custom names(wip)
