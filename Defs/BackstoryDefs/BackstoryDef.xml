@@ -4,7 +4,7 @@
     <defName>Forager</defName>
     <title>Forager</title>
 	<titleShort>Forager</titleShort>
-    <baseDescription>NAME was a Forager.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a Forager.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -27,7 +27,7 @@
     <defName>EnglishStudent</defName>
     <title>EnglishStudent</title>
 	<titleShort>EnglishStudent</titleShort>
-    <baseDescription>NAME was an english student.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was an english student.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -46,7 +46,7 @@
     <defName>FirebombingSurvivor</defName>
     <title>Firebombing Survivor</title>
 	<titleShort>Firebombing</titleShort>
-    <baseDescription>NAME was a survivor of a devastating firebombing. HECAP learned to rebuild HECAP village, but would never be the same.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a survivor of a devastating firebombing. [PAWN_pronoun] learned to rebuild [PAWN_pronoun] village, but would never be the same.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -72,7 +72,7 @@
     <defName>BanishedChild</defName>
     <title>BanishedChild</title>
 	<titleShort>BanishedChild</titleShort>
-    <baseDescription>NAME was banished from HECAP tribe for killing another member of HECAP tribe. For many years HECAP learned to live off the land.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was banished from [PAWN_pronoun] tribe for killing another member of [PAWN_pronoun] tribe. For many years [PAWN_pronoun] learned to live off the land.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -102,7 +102,7 @@
     <defName>Loner</defName>
     <title>Loner</title>
 	<titleShort>Loner</titleShort>
-    <baseDescription>NAME was a loner.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a loner.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -124,7 +124,7 @@
     <defName>Thief</defName>
     <title>Thief</title>
 	<titleShort>Thief</titleShort>
-    <baseDescription>NAME was a thief. HECAP never got caught.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a thief. [PAWN_pronoun] never got caught.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -143,7 +143,7 @@
     <defName>Firekeeper</defName>
     <title>Firekeeper</title>
 	<titleShort>Firekeeper</titleShort>
-    <baseDescription>NAME was a firekeeper.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a firekeeper.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Childhood</slot>
@@ -164,7 +164,7 @@
     <defName>Hunter</defName>
     <title>Hunter</title>
 	<titleShort>Hunter</titleShort>
-    <baseDescription>NAME was an effective hunter, providing food for the tribe.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was an effective hunter, providing food for the tribe.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -187,7 +187,7 @@
     <defName>Weaver</defName>
     <title>Weaver</title>
 	<titleShort>Weaver</titleShort>
-    <baseDescription>NAME was a Weaver.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a Weaver.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -206,7 +206,7 @@
     <defName>Gatherer</defName>
     <title>Gatherer</title>
 	<titleShort>Gatherer</titleShort>
-    <baseDescription>NAME gathered food for the clan.</baseDescription>
+    <baseDescription>[PAWN_nameDef] gathered food for the clan.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -225,7 +225,7 @@
     <defName>Healer</defName>
     <title>Healer</title>
 	<titleShort>Healer</titleShort>
-    <baseDescription>NAME was a healer, and dealt with wounds of fellow tribemembers, Direhorses and Ikrans, or Banshees.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a healer, and dealt with wounds of fellow tribemembers, Direhorses and Ikrans, or Banshees.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -244,7 +244,7 @@
     <defName>Handler</defName>
     <title>Handler</title>
 	<titleShort>Handler</titleShort>
-    <baseDescription>NAME dealt with keeping the Direhorses and Banshees in order, feeding, training and ceromonially burying them.</baseDescription>
+    <baseDescription>[PAWN_nameDef] dealt with keeping the Direhorses and Banshees in order, feeding, training and ceromonially burying them.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -263,7 +263,7 @@
     <defName>Messager</defName>
     <title>Messager</title>
 	<titleShort>Messager</titleShort>
-    <baseDescription>NAME was a Messager, tasked with keeping diplomacy with other clans.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a Messager, tasked with keeping diplomacy with other clans.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -290,7 +290,7 @@
     <defName>Banished</defName>
     <title>Banished</title>
 	<titleShort>Banished</titleShort>
-    <baseDescription>NAME was banished from HECAP clan.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was banished from [PAWN_pronoun] clan.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -317,7 +317,7 @@
     <defName>AdultLoner</defName>
     <title>AdultLoner</title>
 	<titleShort>AdultLoner</titleShort>
-    <baseDescription>NAME was a loner. HECAP left HECAP clan purposely.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a loner. [PAWN_pronoun] left [PAWN_pronoun] clan purposely.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -336,7 +336,7 @@
     <defName>Teacher</defName>
     <title>Teacher</title>
 	<titleShort>Teacher</titleShort>
-    <baseDescription>NAME taught tribemembers how to fight, whether it be enemy clans, or RDA members.</baseDescription>
+    <baseDescription>[PAWN_nameDef] taught tribemembers how to fight, whether it be enemy clans, or RDA members.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -359,7 +359,7 @@
     <defName>Warrior</defName>
     <title>Warrior</title>
 	<titleShort>Warrior</titleShort>
-    <baseDescription>NAME was a warrior for HECAP clan.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a warrior for [PAWN_pronoun] clan.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
@@ -382,7 +382,7 @@
     <defName>Storykeeper</defName>
     <title>Storykeeper</title>
 	<titleShort>Storykeeper</titleShort>
-    <baseDescription>NAME was a storykeeper for HECAP clan.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a storykeeper for [PAWN_pronoun] clan.</baseDescription>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>

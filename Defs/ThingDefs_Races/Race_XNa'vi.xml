@@ -140,7 +140,8 @@
 			</generalSettings>
 			<graphicPaths>
 				<li>
-					<head>Navi/Heads/</head>				
+				<body>Navi/Body/</body>
+                <head>Navi/Heads/</head>
 				</li>
 			</graphicPaths>
 			<hairSettings>
