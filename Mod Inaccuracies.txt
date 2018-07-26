@@ -1,4 +1,9 @@
 This is where all the mod inaccuracies will be listed. If you find one, please either message InterstellarOrbit on Ludeon forums, or Join the discord for the mod.
 
+
+
+
 1. Backstory(English Student)
 	Although there was only a few confirmed students, the mod adds this to relate to the movie more. 
+
+2. Names   Names may be incorrect. They may not be structered correctly. This is due to technical downfalls.
