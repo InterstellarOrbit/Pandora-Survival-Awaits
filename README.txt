@@ -1,9 +1,15 @@
 Pandora-Survival-Awaits
 
-
-Created by InterstellarOrbit, Made possible by Saebbi.
+Dev Team:
+Creator/XML: InterstellarOrbit
+XML: Saebbi(Couldn't have done this without him, much thanks :D)
+Na'vi Art: Astra
 
 Changelog: 
+
+Jume 21st
+
+-Added Art for Na'vi, final stretch for v0.1 
 
 June 18th, 2018
 
