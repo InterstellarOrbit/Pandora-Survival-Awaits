@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>NaviTail</defName>
+      <label>Navi tail</label>
+      <description>An Navi tail.</description>
+      <graphicData>
+         <texPath>Things/Item/Health/HealthItemNatural</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <statBases>
+         <MarketValue>200</MarketValue>
+		 <Mass>2</Mass>
+      </statBases>
+   </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>ClothTail</defName>
+    <label>cloth Navi tail</label>
+    <description>Simple prosthesis made to replace a missing tail. It's better than nothing...</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>BionicNaviTail</defName>
+    <label>bionic Navi tail</label>
+    <description>A sophisticated prehensile tail replacement.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+</Defs>

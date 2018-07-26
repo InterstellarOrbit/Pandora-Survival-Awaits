@@ -2,13 +2,21 @@
 <Defs>
 
   <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ClothTail</defName>
+    <label>cloth tail</label>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.6</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
     <defName>BionicNaviTail</defName>
-    <label>bionic Navi tail</label>
-    <labelNoun>an archotech arm</labelNoun>
+    <label>bionic tail</label>
     <spawnThingOnRemoved>BionicNaviTail</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.25</partEfficiency>
+      <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>
       <li>
@@ -17,23 +25,8 @@
               <capacity>Manipulation</capacity>
               <offset>0.2</offset>
             </li>
-			 <li>
-               <capacity>Moving</capacity>
-               <offset>0.2</offset>
-            </li>
           </capMods>
       </li>
     </stages>
   </HediffDef>
-  
-  <HediffDef ParentName="AddedBodyPartBase">
-    <defName>TailCover</defName>
-    <label>tail cover</label>
-    <labelNoun>a tail cover</labelNoun>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>0.2</partEfficiency>
-    </addedPartProps>
-  </HediffDef>
-  
 </Defs>

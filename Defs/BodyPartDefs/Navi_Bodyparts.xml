@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>  
-
+  
 	<BodyPartDef>
    	 <defName>NaviTail</defName>
    	 <label>navi tail</label>
    	 <hitPoints>15</hitPoints>
-   	 <frostbiteVulnerability>8</frostbiteVulnerability>
-   	 <permanentInjuryBaseChance>0.08</permanentInjuryBaseChance>
+   	 <frostbiteVulnerability>1</frostbiteVulnerability>
    	 <spawnThingOnRemoved>NaviTail</spawnThingOnRemoved>
    	 <skinCovered>true</skinCovered>
-         <beautyRelated>true</beautyRelated>
+   	 <beautyRelated>true</beautyRelated>
+   	 <tags>
+		<li>MovingLimbSegment</li>
+   	 </tags>
 	</BodyPartDef>
 
-   <ThingDef ParentName="BodyPartNaturalBase">
-      <defName>NaviTail</defName>
-      <label>navi tail</label>
-      <description>A tail of a Navi.</description>
-      <graphicData>
-         <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
-         <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <statBases>
-         <MarketValue>200</MarketValue>
-		 <Mass>1</Mass>
-      </statBases>
-   </ThingDef>
-	
-	
 </Defs>

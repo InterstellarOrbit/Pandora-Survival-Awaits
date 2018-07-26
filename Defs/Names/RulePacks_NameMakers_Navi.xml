@@ -5,12 +5,20 @@
     <defName>NamerPersonNaviMale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[Names_NaviM]</li>
+        <li>name->[NaviMaleFirst] '[nick]' [NaviMaleFamily] [NaviMalePaternal]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>Names_NaviM</keyword>
-          <path>NameBanks/Names_Na'viM</path>
+          <keyword>NaviMaleFirst</keyword>
+          <path>NaviNames/FirstM</path>
+        </li>
+		<li Class="Rule_File">
+          <keyword>NaviMaleFamily</keyword>
+          <path>NaviNames/FamilyM</path>
+        </li>
+		<li Class="Rule_File">
+          <keyword>NaviMalePaternal</keyword>
+          <path>NaviNames/PaternalM</path>
         </li>
       </rulesRaw>
     </rulePack>
@@ -20,12 +28,20 @@
     <defName>NamerPersonNaviFemale</defName>
     <rulePack>
       <rulesStrings>           
-		<li>name->[Names_NaviF]</li>
+		<li>name->[NaviFemaleFirst] '[nick]' [NaviFemaleFamily] [NaviFemaleMaternal]</li>
       </rulesStrings>
       <rulesRaw>       
 		<li Class="Rule_File">
-          <keyword>Names_NaviF</keyword>
-          <path>NameBanks/Names_Na'viF</path>
+          <keyword>NaviFemaleFirst</keyword>
+          <path>NaviNames/FirstF</path>
+		</li>
+		<li Class="Rule_File">
+          <keyword>NaviFemaleFamily</keyword>
+          <path>NaviNames/FamilyF</path>
+		</li>
+		<li Class="Rule_File">
+          <keyword>NaviFemaleMaternal</keyword>
+          <path>NaviNames/MaternalF</path>
 		</li>
       </rulesRaw>
     </rulePack>

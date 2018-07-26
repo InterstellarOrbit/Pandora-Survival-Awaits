@@ -1,34 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <FactionDef Abstract="True" Name="NaviFactionBase">
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
     <colorSpectrum>
-      <li>(0, 0.737, 0.847)</li>
+      <li>(0, 0.284, 0.981)</li>
     </colorSpectrum>
-	<hairTags>
-		<li>NonExisting</li>
-	</hairTags>
   </FactionDef>
   
-  <FactionDef ParentName="NaviFactionBase">
-    <defName>NaviPlayerTribe</defName>
-    <label>Navi Tribe</label>
-    <description>Your own tribe.</description>
+  <FactionDef Parent="NaviFactionBase">
+    <defName>NaviPlayerColony</defName>
+    <label>Navi Colony</label>
+    <description>Your own community.</description>
     <isPlayer>true</isPlayer>
-    <pawnsPlural>colonists</pawnsPlural>
     <basicMemberKind>Navi</basicMemberKind>
-		<techLevel>Neolithic</techLevel>
-		<backstoryCategory>NaviBackstory</backstoryCategory>
-		<expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
-		<homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
-	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnsPlural>colonists</pawnsPlural>
+	<pawnNameMaker>NamerPersonNaviMale</pawnNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategory>Navi</backstoryCategory>
+    <homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<geneticVariance>1</geneticVariance>
-	<startingResearchTags>
-      <li>TribalStart</li>
+    <startingResearchTags>
+      <li>ClassicStart</li>
     </startingResearchTags>
-    </FactionDef>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
 
 </Defs>

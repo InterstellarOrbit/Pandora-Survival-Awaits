@@ -1,48 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <FactionDef Name="NaviFaction" Abstract="True">
-    <goodwillDailyGain>0.5</goodwillDailyGain>
-    <goodwillDailyFall>0.5</goodwillDailyFall>
-	<pawnSingular>Navi</pawnSingular>
-    <pawnsPlural>Navi</pawnsPlural>
-    <listOrderPriority>30</listOrderPriority>
+  <FactionDef>
+		<defName>Navi</defName>
+		<label>Navi Tribe</label>
+    <description>N/A</description>
+	<pawnSingular>Na'vi</pawnSingular>
+    <pawnsPlural>The Na'vi</pawnsPlural>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>leader</leaderTitle>
-    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-    <colorSpectrum>
-      <li>(0.64, 0.42, 0.36)</li>
-      <li>(0.47, 0.5, 0.91)</li>
-    </colorSpectrum>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
-	<techLevel>Neolithic</techLevel>
-	<backstoryCategory>NaviBackstory</backstoryCategory>
-	<geneticVariance>0.8</geneticVariance>
-	<hairTags>
-		<li>NonExisting</li>
-	</hairTags>
+    <leaderTitle>Governor</leaderTitle>
+    <startingGoodwill>
+      <min>10</min>
+      <max>40</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<pawnNameMaker>NamerPersonNaviMale</pawnNameMaker>
+		<hairTags><li>Tribal</li></hairTags>
+		<techLevel>Neolithic</techLevel>
+		<backstoryCategory>Navi</backstoryCategory>
+		<geneticVariance>0.8</geneticVariance>
+				<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
     <caravanTraderKinds>
-      <li>Caravan_Neolithic_BulkGoods</li>
-      <li>Caravan_Neolithic_WarMerchant</li>
-      <li>Caravan_Neolithic_Slaver</li>
-	  <li>Caravan_Neolithic_ShamanMerchant</li>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
-      <li>Visitor_Neolithic_Standard</li>
+      <li>Visitor_Navi_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Base_Neolithic_Standard</li>
+      <li>Base_Outlander_Standard</li>
     </baseTraderKinds>
     <allowedArrivalTemperatureRange>
-      <min>-40</min>
-      <max>45</max>
+      <min>-60</min>
+      <max>30</max>
     </allowedArrivalTemperatureRange>
-    <maxPawnCostPerTotalPointsCurve>
+	<maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
         <li>(70, 50)</li>
@@ -52,74 +58,44 @@
       </points>
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
-      <li>
-        <!-- Normal fights, standard mix -->
+	  <li>
         <kindDef>Combat</kindDef>
         <options>
-          <NaviTribeMember>200</NaviTribeMember>
-          <NaviGuard>100</NaviGuard>
-          <NaviFighter>200</NaviFighter>
-          <NaviHunter>100</NaviHunter>
+          <NaviFighter>10</NaviFighter>
+          <NaviTribeMember>1</NaviTribeMember>
+          <NaviGuard>1</NaviGuard>
         </options>
       </li>
-      <li>
-        <kindDef>Peaceful</kindDef>
+	  <li>
+      <kindDef>Peaceful</kindDef>
         <options>
-          <NaviTribeMember>100</NaviTribeMember>
-          <NaviHunter>80</NaviHunter>
+          <NaviTrader>20</NaviTrader>
+          <NaviGuard>10</NaviGuard>
         </options>
       </li>
-      <li>
-        <kindDef>Trader</kindDef>
+	  <li>
+      <kindDef>Trader</kindDef>
         <traders>
-          <Tribal_Trader>1</Tribal_Trader>
+          <NaviTrader>1</NaviTrader>
         </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+          <Dromedary>1</Dromedary>
+        </carriers>
         <guards>
-          <NaviTribeMember>200</NaviTribeMember>
-          <NaviGuard>100</NaviGuard>
-          <NaviFighter>200</NaviFighter>
-          <NaviHunter>100</NaviHunter>
+          <NaviGuard>10</NaviGuard>
         </guards>
       </li>
-      <li>
-        <kindDef>FactionBase</kindDef>
+	  <li>
+        <kindDef>Settlement</kindDef>
         <options>
-          <NaviTribeMember>200</NaviTribeMember>
-          <NaviGuard>100</NaviGuard>
-          <NaviFighter>200</NaviFighter>
-          <NaviHunter>100</NaviHunter>
+          <NaviTribeMember>35</NaviTribeMember>
+          <NaviGuard>15</NaviGuard>
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
-  </FactionDef>
-
-  <FactionDef ParentName="NaviFaction">
-    <defName>NaviFaction1</defName>
-    <label>civil Navi tribe</label>
-    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
-    <startingGoodwill>
-      <min>0</min>
-      <max>0</max>
-    </startingGoodwill>
-    <naturalColonyGoodwill>
-      <min>-50</min>
-      <max>50</max>
-    </naturalColonyGoodwill>
-  </FactionDef>
-
-  <FactionDef ParentName="NaviFaction">
-    <defName>NaviFaction2</defName>
-    <label>hostile Navi Tribe</label>
-    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them.</description>
-    <startingGoodwill>
-      <min>-20</min>
-      <max>-20</max>
-    </startingGoodwill>
-    <naturalColonyGoodwill>
-      <min>-100</min>
-      <max>-80</max>
-    </naturalColonyGoodwill>
+    <homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+    <expandingIconTexture>World/WorldObjects/TribalSettlement</expandingIconTexture>
   </FactionDef>
 
 </Defs>

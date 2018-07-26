@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.RaceSettings>
+        <defName>NaviRaceSettings</defName>
+<pawnKindSettings>
+            <startingColonists>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>NaviColonist</li>
+                                <li>NaviTribeMember</li>
+                                <li>NaviGuard</li>
+                                <li>NaviFighter</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>NaviPlayerColony</li> 
+                    </factionDefs>
+                </li>
+				                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>Navi</li>
+                            </kindDefs>
+                            <chance>10.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>NaviPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </startingColonists>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>NaviSlave</li>
+                    </kindDefs>
+                    <chance>5.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>NaviRefugee</li>
+                    </kindDefs>
+                    <chance>15.0</chance>
+                </li>
+            </alienrefugeekinds>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>NaviTribeMember</li>
+                            </kindDefs>
+                            <chance>15.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>NaviPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+            </pawnKindSettings>
+</AlienRace.RaceSettings>
+</Defs>

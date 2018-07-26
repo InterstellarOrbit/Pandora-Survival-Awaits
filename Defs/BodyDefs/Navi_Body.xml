@@ -38,8 +38,9 @@
             <li>Torso</li>
           </groups>
         </li>
-        <li>
+		<li>
           <def>NaviTail</def>
+		  <customLabel>tail</customLabel>
           <coverage>0.05</coverage>
           <height>Bottom</height>
           <groups>
@@ -260,8 +261,8 @@
                   <parts>
                     <li>
                       <def>Finger</def>
-                      <customLabel>left pinky</customLabel>
-                      <coverage>0.06</coverage>
+                      <customLabel>left ring finger</customLabel>
+                      <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>LeftHand</li>
@@ -269,8 +270,8 @@
                     </li>
                     <li>
                       <def>Finger</def>
-                      <customLabel>left ring finger</customLabel>
-                      <coverage>0.07</coverage>
+                      <customLabel>left middle finger</customLabel>
+                      <coverage>0.08</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>LeftHand</li>
@@ -355,8 +356,8 @@
                   <parts>
                     <li>
                       <def>Finger</def>
-                      <customLabel>right pinky</customLabel>
-                      <coverage>0.06</coverage>
+                      <customLabel>right ring finger</customLabel>
+                      <coverage>0.07</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>RightHand</li>
@@ -364,8 +365,8 @@
                     </li>
                     <li>
                       <def>Finger</def>
-                      <customLabel>right ring finger</customLabel>
-                      <coverage>0.07</coverage>
+                      <customLabel>right middle finger</customLabel>
+                      <coverage>0.08</coverage>
                       <groups>
                         <li>Hands</li>
                         <li>RightHand</li>
@@ -440,16 +441,16 @@
               <parts>
                 <li>
                   <def>Toe</def>
-                  <customLabel>left little toe</customLabel>
-                  <coverage>0.06</coverage>
+                  <customLabel>left fourth toe</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>left third toe</customLabel>
-                  <coverage>0.07</coverage>
+                  <customLabel>left middle toe</customLabel>
+                  <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -511,16 +512,16 @@
               <parts>
                 <li>
                   <def>Toe</def>
-                  <customLabel>right little toe</customLabel>
-                  <coverage>0.06</coverage>
+                  <customLabel>right fourth toe</customLabel>
+                  <coverage>0.07</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>right third toe</customLabel>
-                  <coverage>0.07</coverage>
+                  <customLabel>right middle toe</customLabel>
+                  <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>

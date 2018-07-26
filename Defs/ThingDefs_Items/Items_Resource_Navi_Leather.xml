@@ -3,21 +3,22 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Navi</defName>
-    <label>Navi leather</label>
-    <description>Tanned, dried, scraped Navi skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <label>Navi fur</label>
+    <description>A soft furry pelt harvested from a Navi. Most will find this ditestible, and it doesn't protect well from physical damage, but it will keep you warm in even the coldest enviroments.</description>
     <graphicData>
       <color>(51,102,255)</color>
     </graphicData>
     <statBases>
-      <MarketValue>4.2</MarketValue>
+      <MarketValue>5</MarketValue>
       <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
       <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
       <color>(51,102,255)</color>
-      <commonality>0.0025</commonality>
+      <commonality>0.001</commonality>
     </stuffProps>
   </ThingDef>
- 
+  
+
 </Defs>
