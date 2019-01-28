@@ -44,9 +44,17 @@
 					</aliencrowntypes>
                     <alienbodytypes>
                         <li>Male</li>
-                        <li>Female</li>
                     </alienbodytypes>
 					<useGenderedHeads>false</useGenderedHeads>
+					<useGenderedBodies>true</useGenderedBodies>
+					<alienskincolorgen Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>10</weight>
+								<only>RGBA(69,141,196)</only>
+							</li>
+						</options>
+					</alienskincolorgen>
                     <bodyAddons>
 						<li>
 							<drawSize>.75</drawSize>
@@ -58,9 +66,6 @@
 								<south>
 									<bodyTypes>
 										<Male>(-0.25,-0.2)</Male>
-										<Female>(-.1,-0.2)</Female>
-										<Thin>(-.1,-0.2)</Thin>
-										<Hulk>(-.1,-0.2)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -69,9 +74,6 @@
 								<north>
 									<bodyTypes>
 										<Male>(0,-0.05)</Male>
-										<Female>(0,-0.05)</Female>
-										<Thin>(0,-0.05)</Thin>
-										<Hulk>(0,-0.05)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -80,9 +82,6 @@
 								<east>
 									<bodyTypes>
 										<Male>(0.1,-0.2)</Male>
-										<Female>(0.1,-0.2)</Female>
-										<Thin>(0.05,-0.2)</Thin>
-										<Hulk>(0.2,-0.25)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -102,8 +101,7 @@
             </graphicPaths>
 		
             <hairSettings>
-                <hasHair>true</hasHair>
-                <getsGreyAt>85</getsGreyAt>
+                <hasHair>false</hasHair>
             </hairSettings>
             
             <thoughtSettings>
@@ -177,7 +175,7 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
         <race>

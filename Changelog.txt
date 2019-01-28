@@ -1,3 +1,24 @@
-June 18th, 2018
+Changelog: 
+Aug. 14th -0.1.3c
+Bugfixes, New Graphics, Adaption to 0.19
+(Removed hair for later development)
+
+Aug. 4th -0.1.2c
+
+-Bugfixes, patch for new version of AlienRace; Finishing Touches to be released in 0.1.3c
+
+Aug. 2nd -0.1.1c
+
+-Race Finished, Bugfixes, Backstories and Skin will be fixed in 0.1.2c
+
+July 26th -0.1c
+
+-Na'vi Finished, release of Alpha 1 to playtesters
+
+June 21st -0.1b
+
+-Added Art for Na'vi, final stretch for v0.1 
+
+June 18th, 2018 -0.1a
 
 -Added Na'vi, a playable race with custom names(wip)

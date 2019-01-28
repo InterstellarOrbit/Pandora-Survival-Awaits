@@ -3,10 +3,16 @@
 	<name>Pandora: Survival Awaits</name>
 	<author>InterstellarOrbit</author>
 	<url>N/A</url>
-    <targetVersion>1.0.0</targetVersion>
+    <targetVersion>0.19.1987</targetVersion>
 	<description>
-	Created By InterstellarOrbit
-	XML by Saebbi				
+	Version: 0.1.3c
+	Transforms Rimworld into Pandora.
+	
+	Dev Team:
+	Creator; XML Writer: InterstellarOrbit
+	XML Writer: Saebbi (Couldn't have been done without you, thanks!)
+	Na'vi Artist: Astra
+	Playtesters: Rolandwow,Grillbye,Nilokka,Troy
 	
 	</description>
 </ModMetaData>

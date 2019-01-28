@@ -6,4 +6,4 @@ This is where all the mod inaccuracies will be listed. If you find one, please e
 1. Backstory(English Student)
 	Although there was only a few confirmed students, the mod adds this to relate to the movie more. 
 
-2. Names   Names may be incorrect. They may not be structered correctly. This is due to technical downfalls.
+2. Names   Names may be incorrect. They may not be structered correctly. This is due to technical downfalls. Also, Some letters are not able to be displayed due to Rimworld. They have been replaced by standard English Letters. (I,i;A,a) replaced (Ì,ì;Ä,ä).
