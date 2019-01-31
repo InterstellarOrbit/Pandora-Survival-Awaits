@@ -3,7 +3,9 @@
 	<name>Pandora: Survival Awaits</name>
 	<author>InterstellarOrbit</author>
 	<url>N/A</url>
-    <targetVersion>0.19.1987</targetVersion>
+	<supportedVersions>
+    <li>1.0</li>
+	</supportedVersions>
 	<description>
 	Version: 0.1.3c
 	Transforms Rimworld into Pandora.
